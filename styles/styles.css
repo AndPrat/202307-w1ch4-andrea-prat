@@ -51,7 +51,7 @@ ul {
 
 .button {
   background-color: #ffffff;
-  border-radius: 0px 20px 20px 20px;
+  border-radius: 0px 10px 10px 10px;
   border-color: #ee6336;
   color: #181818;
   padding: 15px;
@@ -59,11 +59,18 @@ ul {
   font-weight: bold;
   letter-spacing: 2px;
   display: inline-block;
+  text-align: center;
 }
 
 .button__primary {
   background-color: #ee6336;
   color: #ffffff;
+}
+
+.section__button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .category-list {
