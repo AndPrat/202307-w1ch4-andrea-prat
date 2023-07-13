@@ -1,10 +1,11 @@
-* ::before::after {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;800&family=Open+Sans&display=swap");
+
+* ::before ::after {
   box-sizing: border-box;
 }
 
 html {
   font-family: "Nunito", sans-serif;
-  font-family: "Open Sans", sans-serif;
 }
 
 body {
