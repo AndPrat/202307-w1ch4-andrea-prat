@@ -1,0 +1,16 @@
+* ::before::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
