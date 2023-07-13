@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;800&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&family=Open+Sans&display=swap");
 
 * ::before ::after {
   box-sizing: border-box;
@@ -14,20 +14,48 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .main {
   padding: 40px;
   display: flex;
 }
 
 .main__section {
-  padding: 10px;
+  padding: 30px;
+  color: #ee6336;
 }
 .section__title {
   font-size: 5rem;
+  color: #181818;
 }
 
 .section__subtitle {
   font-size: 1.5rem;
+  display: inline-block;
+}
+
+.button {
+  background-color: #ffffff;
+  border-radius: 0px 20px 20px 20px;
+  border-color: #ee6336;
+  color: #181818;
+  padding: 20px;
+  size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+.button__primary {
+  background-color: #ee6336;
+  color: #ffffff;
 }
 
 .category-list {
